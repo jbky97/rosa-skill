@@ -2,7 +2,7 @@
 
 ## Gemini Spark + NotebookLM（推荐）
 
-1. 从 [v1.9.21 r16 有限保证版](https://github.com/jbky97/rosa-skill/releases/tag/skill-v1.9.21-r16-limited) 下载 `rosa-skill-v1.9.21-r16-package.zip`，先阅读随附 [发行限制](LIMITED-RELEASE-NOTES.md)。引文、精确定位及 PDF 使用前须人工核对。本版不是完整独立验收 PASS；[v1.9.20 完整验收基线](https://github.com/jbky97/rosa-skill/releases/tag/skill-v1.9.20) 仍保留。
+1. 从 [v1.9.22 r1 有限保证版](https://github.com/jbky97/rosa-skill/releases/tag/skill-v1.9.22-r1-limited) 下载 `rosa-skill-v1.9.22-r1-package.zip`，先阅读随附 [发行限制](LIMITED-RELEASE-NOTES.md)。引文、精确定位及 PDF 使用前须人工核对。本版不是完整独立验收 PASS；旧版 Release 原样保留。
 2. 在 Spark 的技能／文件管理环境中导入 ZIP；若该环境要求先解压，请保留完整 `rosa/` 文件夹，以 `rosa/SKILL.md` 为入口，保持 `references/` 与 `assets/` 的相对路径。
 3. 确认当前任务能读取 `SKILL.md` 和它指向的 references。仅把 ZIP 附到普通聊天，不等于平台已经持久安装技能。
 4. 在支持 NotebookLM 的宿主中，挂载你有权限使用的笔记本。需要直接引文时，应让宿主读取实际检索片段；笔记本名称或书目本身不能替代原文。
@@ -21,7 +21,7 @@ Gemini/Spark 与 NotebookLM 的界面和可用接口因环境而异。本指南�
 Windows PowerShell：
 
 ```powershell
-Get-FileHash -Algorithm SHA256 -LiteralPath .\rosa-skill-v1.9.21-r16-package.zip
+Get-FileHash -Algorithm SHA256 -LiteralPath .\rosa-skill-v1.9.22-r1-package.zip
 ```
 
 将结果与同一 Release 的 `SHA256.txt` 比对。校验对象是安装 ZIP，不是 GitHub 自动生成的 Source code archive。

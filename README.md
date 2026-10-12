@@ -1,36 +1,25 @@
 # ROSA — Reformed Orthodoxy Study Assistant
 
-以改革宗正统为底色的研经、神学研究与教学备课助手。
+以改革宗为底色的研经、神学研究与教学备课助手。
 
-**[下载 v1.9.21 r16 · 有限保证版](https://github.com/jbky97/rosa-skill/releases/tag/skill-v1.9.21-r16-limited)** · [安装指南](INSTALL.md) · [发行限制](LIMITED-RELEASE-NOTES.md) · [更新记录](CHANGELOG.md)
+**[下载 v1.9.22 r1 · 有限保证版](https://github.com/jbky97/rosa-skill/releases/tag/skill-v1.9.22-r1-limited)** · [安装指南](INSTALL.md) · [发行限制](LIMITED-RELEASE-NOTES.md) · [更新记录](CHANGELOG.md)
 
-当前有限保证版用于讨论、研究草案与备课，不是完整独立验收 PASS。引文／作者归属、精确定位和双层 PDF 使用前须人工核对。以下 v1.9.20 特性描述是历史说明，不代表新版自动可靠性保证；[v1.9.20 完整验收基线](https://github.com/jbky97/rosa-skill/releases/tag/skill-v1.9.20) 仍保留。
+## 本版新增
 
-本仓库提供正式安装包、校验文件和用户说明。GitHub 自动生成的 **Source code ZIP / TAR 不是 ROSA 安装包**，请使用上方下载链接。
+第三空间教案编排：把已有文化分析承接到聚会设计，按需使用 S0–S4、批准文字继承、局部更新及 Markdown 交接。不需要另装第二套 Skill，也不要求每次加载全部策划文件。
 
-## 三步开始
+本版为用户试用接受的有限保证发行，不是完整独立验收 PASS。引文／作者归属、精确定位和 Leader／Student PDF 使用前须人工核对；A 已试用，B/C 用户跳过，不计通过。
 
-1. 下载 `rosa-skill-v1.9.21-r16-package.zip`，并阅读随附有限保证说明。
-2. 按 [安装指南](INSTALL.md) 将 ROSA 导入你的平台；推荐 Gemini Spark 配合 NotebookLM。
-3. 提供一段你实际使用的经文文本，再让 ROSA帮助你开始查经、研究或备课。
+## 开始使用
+
+1. 下载 `rosa-skill-v1.9.22-r1-package.zip`，同时阅读发行限制。
+2. 按安装指南导入完整 `rosa/`；升级前备份并保留个人 `references/user_toolbox.md`。
+3. 提供实际任务，从当前需要开始，不必先选择模式。
 
 试用提示：
 
-> 请使用 ROSA。以下是我提供的经文文本：〔贴入经文及译本名称〕。先说明如何开始研读，并提出两个观察问题；暂时不要生成完整教案。需要引用外部资料时，请区分已读来源与尚未核实的内容。
+> 请用 ROSA 帮我筹备一期第三空间聚会。我会提供主题与素材；先承接现有分析，给我眼前最值得确认的一步，不先生成完整教案。
 
-## v1.9.20 带来什么
+GitHub 自动生成的 Source code ZIP / TAR 不是安装包。核对同一 Release 的 SHA256.txt。冻结包中 candidate／PENDING 为打包时历史文字，后续用户接受由发行说明记录；不重新打包求改标签。
 
-- 检查引用后提出具体修复方案，由用户批准后应用并重新检查。
-- 区分“已批准”“已修改”与“已解决”，避免把计划当作完成。
-- 支持带领者与学员材料；学员版保留必要的来源限制，隐藏内部审计标识。
-- 强化经文来源、引文定位和 PDF 导出核验。
-
-ROSA 的证据规则帮助减少错误；生成内容仍需要带领者审阅。没有可读原文时，ROSA 应披露限制，不应编造引文或页码。
-
-## 校验与升级
-
-当前 Release 同时提供 [SHA256.txt](https://github.com/jbky97/rosa-skill/releases/download/skill-v1.9.21-r16-limited/SHA256.txt)。当前 ZIP 是冻结 r16 的原始字节副本，有限接受不等于独立验收。旧 v1.9.20 Release 与校验文件原样保留。
-
-升级前备份你自己的 `references/user_toolbox.md`。安装包不含个人文件；更新时保留或恢复它，不要因为新包没有该文件而删除个人资料。
-
-包内 `rosa/` 为运行内容，`release-notes/` 为人类阅读的发布记录。包内冻结的阶段文字不代表当前发行状态；本公开发行以版本 Release 与 checksum 为准。
+历史 [v1.9.21 r16 有限保证版](https://github.com/jbky97/rosa-skill/releases/tag/skill-v1.9.21-r16-limited) 与 [v1.9.20 最后完整验收基线](https://github.com/jbky97/rosa-skill/releases/tag/skill-v1.9.20) 保留。
